@@ -1,0 +1,50 @@
+body {
+  background-color: #be6602;
+}
+
+header .top-title {
+  border-bottom: solid black 2px;
+  color: #ffe600;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Hiragino Kaku Gothic StdN;
+}
+
+#caution-text {
+  text-align: center;
+  margin: 250px 0;
+}
+
+#caution-text h2 {
+  color: red;
+  font-size: 25px;
+  font-family: Hiragino Kaku Gothic StdN;
+  padding-bottom: 10px;
+}
+
+.contents img {
+  width: 100%;
+  height: 1000px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .contents img {
+    width: 100%;
+    height: 500px;
+  }
+  #caution-text {
+    text-align: center;
+    margin: 300px 0;
+  }
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=index.css.map */
