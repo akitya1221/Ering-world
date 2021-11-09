@@ -2,12 +2,12 @@ body {
   background-color: #be6602;
 }
 
-header .top-title {
+header #top-title {
   border-bottom: solid black 2px;
   color: #ffe600;
   padding: 20px;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   font-family: Hiragino Kaku Gothic StdN;
 }
 
@@ -23,9 +23,42 @@ header .top-title {
   padding-bottom: 10px;
 }
 
-.contents img {
+.illustration img {
   width: 100%;
   height: 1000px;
+}
+
+#profile {
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 10px 10px 0 10px;
+}
+
+#profile h2 {
+  font-size: 30px;
+}
+
+#character {
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 10px 10px;
+}
+
+#character h2 {
+  font-size: 30px;
+}
+
+#episode {
+  border: solid 5px black;
+  text-align: center;
+  padding: 30px;
+  margin: 0 10px 0 10px;
+}
+
+#episode h2 {
+  font-size: 30px;
 }
 
 footer {
@@ -34,13 +67,16 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  .contents img {
+  .illustration img {
     width: 100%;
     height: 500px;
   }
   #caution-text {
     text-align: center;
-    margin: 300px 0;
+    margin: 50px 0;
+  }
+  #caution-text p {
+    font-size: 15px;
   }
   footer {
     padding: 20px;
