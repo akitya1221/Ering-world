@@ -1,5 +1,5 @@
 body {
-  background-color: #be6602;
+  background-color: #cc7511;
 }
 
 header #top-title {
@@ -29,6 +29,7 @@ header #top-title {
 }
 
 #profile {
+  background-color: #fff3bc;
   border: solid 5px black;
   text-align: center;
   padding: 30px;
@@ -39,7 +40,44 @@ header #top-title {
   font-size: 30px;
 }
 
+#profile ul {
+  list-style: none;
+}
+
+.status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.status .ideal h3 {
+  color: red;
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-bottom: solid 3px black;
+}
+
+.status .ideal li {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.status .reality h3 {
+  color: blue;
+  font-size: 30px;
+  padding-bottom: 5px;
+  border-bottom: solid 3px black;
+}
+
+.status .reality li {
+  font-size: 18px;
+  margin: 15px;
+}
+
 #character {
+  background-color: #fff3bc;
   border: solid 5px black;
   text-align: center;
   padding: 30px;
@@ -51,6 +89,7 @@ header #top-title {
 }
 
 #episode {
+  background-color: #fff3bc;
   border: solid 5px black;
   text-align: center;
   padding: 30px;
