@@ -36,12 +36,17 @@ header #top-title {
   margin: 10px 10px 0 10px;
 }
 
-#profile h2 {
-  font-size: 30px;
+#profile h3 {
+  margin-bottom: 20px;
 }
 
 #profile ul {
   list-style: none;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 30px;
 }
 
 .status {
@@ -76,6 +81,16 @@ header #top-title {
   margin: 15px;
 }
 
+.status .skill h3 {
+  border-bottom: solid 3px black;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.status .skill img {
+  height: 400px;
+}
+
 #character {
   background-color: #fff3bc;
   border: solid 5px black;
@@ -84,11 +99,7 @@ header #top-title {
   margin: 10px 10px;
 }
 
-#character h2 {
-  font-size: 30px;
-}
-
-#episode {
+#dream {
   background-color: #fff3bc;
   border: solid 5px black;
   text-align: center;
@@ -96,8 +107,55 @@ header #top-title {
   margin: 0 10px 0 10px;
 }
 
-#episode h2 {
-  font-size: 30px;
+.episode1 {
+  border: solid black 2px;
+}
+
+.episode1 h3 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.episode1 p {
+  line-height: 1.5;
+}
+
+.thema {
+  text-align: center;
+}
+
+.picture-box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.picture-box1 .friend {
+  text-align: center;
+}
+
+.picture-box1 .friend img {
+  width: 500px;
+  height: 500px;
+}
+
+.picture-box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.picture-box2 .friend {
+  text-align: center;
+}
+
+.picture-box2 .friend img {
+  width: 500px;
+  height: 500px;
 }
 
 footer {
